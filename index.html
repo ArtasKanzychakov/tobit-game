@@ -101,13 +101,7 @@
 			"tobit10.wasm": 35739700
 		},
 		focusCanvas: true,
-		gdextensionLibs: [],
-		locateFile: function(file) {
-			if (file.endsWith(".wasm")) {
-				return "https://cdn.jsdelivr.net/gh/ArtasKanzychakov/tobit-game@v1.0/tobit10.wasm";
-			}
-			return file;
-		}
+		gdextensionLibs: []
 	};
 	const GODOT_THREADS_ENABLED = false;
 	const engine = new Engine(GODOT_CONFIG);
